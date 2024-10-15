@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <header id="header2">
+    <nav class="nav2">
+      <ul>
+        <img id="img" src="Small-google.png" alt="Google">
+      </ul>
+      <lebel id="GS"> <a href="index.html">Google Search</a></lebel>
+      <lebel id="IS"><a href="img.html">Image Search</a></lebel>
+    </nav>
+    <label class="text-danger">Advanced Search</label>
+  </header>
+    <label id="starting">Find pages with...</label>
+    <form action="https://www.google.com/search" method="get" class="search-form">
+      
+      <div>
+        <label class="first">all these words:</label>
+        <input id="box1" type="text" id="allWords" name="as_q">
+      </div>
+
+      <div>
+        <label class="second">this exact word or phrase:</label>
+        <input id="box2" type="text" id="exactPhrase" name="as_epq">
+      </div>
+
+      <div>
+        <label class="third">any of these words:</label>
+        <input id="box3" type="text" id="anyWords" name="as_opq">
+      </div>
+
+      <div>
+        <label class="forth">none of these words:</label>
+        <input id="box4" type="text" id="noneWords" name="as_eq">
+      </div>
+    </div>
+    <button type="submit" class="btn-primary">Advanced Search</button>
+</form>
+
+</body>
+
+
+</html>

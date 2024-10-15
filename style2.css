@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header2 {
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5%;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img
+{
+    margin-bottom: 20%;
+    margin-right: 30%;
+    height: 40px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#GS {
+    margin-left: 75%;
+}
+
+#GS a, #IS a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.text-danger
+{
+    margin-left: 3%;
+    font-size: x-large;
+    font-family: arial;
+    color: red;
+}
+#starting
+{
+    margin-left: 4%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.search-form 
+{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.d-flex
+{
+    text-decoration: none;
+}
+
+#box1
+{
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+}
+#box2
+{
+    margin-left: 1.4%;
+    margin-bottom: 1.5%;
+} 
+#box3
+{
+    margin-left: 3.6%;
+    margin-bottom: 1.5%;
+} 
+#box4 
+{
+    margin-left: 3.7;
+    margin-bottom: 0%;
+}
+#box1,#box2,#box3,#box4
+{
+    width: 450px;
+}  
+
+.first,.second,.third,.forth
+{
+    font-size: small;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+.forth
+{
+    margin-right: 3%;
+}
+.btn-primary {
+    color: white;
+    display: block;
+    margin-left: 25%; 
+    padding: 10px;
+    width: 15%; 
+    background-color: rgb(0, 123, 255);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+@media (max-width: 600px) 
+{
+    #header2 
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #nav2 ul 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav2 ul li 
+    {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img 
+    {
+        width: 70px; 
+    }
+
+    .label-width, .input-width
+    {
+        width: 100%; 
+    }
+
+    .search-form {
+        margin-left: 0;
+    }
+
+    .sub-branch {
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    #header2 {
+        padding: 15px;
+    }
+
+    #nav2 ul {
+        gap: 15px;
+    }
+
+    #nav2 ul li {
+        display: inline-block;
+    }
+
+    img {
+        width: 80px; 
+    }
+
+    .label-width {
+        width: 150px; 
+    }
+
+    .input-width {
+        width: 100%;
+    }
+
+    .sub-branch {
+        margin-left: 20px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    #header2 {
+        padding: 10px 20px;
+    }
+
+    img {
+        width: 92px;
+    }
+    #nav2 ul li a {
+        font-size: 16px;
+    }
+
+    .label-width {
+        width: 200px;
+    }
+
+    .input-width {
+        width: 300px;
+    }
+}
